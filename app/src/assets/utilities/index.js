@@ -1,0 +1,32 @@
+const IMAGES_DIR = '../images/';
+
+const appImages = {
+  useravatar: require(IMAGES_DIR + 'useravatar.png'),
+  location: require(IMAGES_DIR + 'location.png'),
+  vegetables: require(IMAGES_DIR + 'vegetables.png'),
+  fish:require(IMAGES_DIR + 'fish.png'),
+  Broccoli: require(IMAGES_DIR + 'broccoli.png'),
+  Gedang: require(IMAGES_DIR + 'Gedang.png'),
+  Avocado: require(IMAGES_DIR + 'Avocado.png'),
+  Orange: require(IMAGES_DIR + 'Orange.png'),
+  HomeActive: require(IMAGES_DIR + 'HomeActive.png'),
+  Home:require(IMAGES_DIR + 'Home.png'),
+  CategoryActive: require(IMAGES_DIR + 'CategoryActive.png'),
+  Category:require(IMAGES_DIR + 'Category.png'),
+  Cart:require(IMAGES_DIR + 'Cart.png'),
+  Profile:require(IMAGES_DIR + 'Profile.png'),
+  Tomatos:require(IMAGES_DIR + 'Tomatos.png'),
+  Peppers:require(IMAGES_DIR + 'Peppers.png'),
+  Carrots:require(IMAGES_DIR+'Carrots.png'),
+  Radish:require(IMAGES_DIR+'Radish.png'),
+  Corn:require(IMAGES_DIR+'Corn.png'),
+  Back:require(IMAGES_DIR+'Back.png'),
+  Heart:require(IMAGES_DIR+'Heart.png'),
+  detailImage:require(IMAGES_DIR+'detailImage.png'),
+  Minus:require(IMAGES_DIR+'Minus.png'),
+  Plus:require(IMAGES_DIR+'Plus.png'),
+  show2:require(IMAGES_DIR+'show2.png'),
+  show3:require(IMAGES_DIR+'show3.png'),
+  show4:require(IMAGES_DIR+'show4.png'),
+};
+export {appImages};
